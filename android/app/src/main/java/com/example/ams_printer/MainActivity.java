@@ -164,7 +164,7 @@ class PrinterManager {
             cmd.append(cmd.getCommonSettingCmd(commonSetting));
 
             BitmapSetting bitmapSetting = new BitmapSetting();
-            bitmapSetting.setBmpPrintMode(BmpPrintMode.MODE_MULTI_COLOR);
+            bitmapSetting.setBmpPrintMode(BmpPrintMode.MODE_SINGLE_COLOR);
             bitmapSetting.setBimtapLimitWidth(PrintersWidth.mm_3inch * 8);
 
             try {
